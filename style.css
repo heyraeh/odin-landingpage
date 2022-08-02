@@ -18,6 +18,8 @@ header {
     width: max-width;
     gap: 35px;
     display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
     flex-direction: row;
     justify-content: flex-end;
 }
@@ -28,27 +30,72 @@ header li {
     padding: 0 20px;
 }
 
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #FEFBF6;
+}
+
 header img {
     height: 60px;
     width: 60px;
     margin-right: auto;
+    padding: 5px 5px 5px 20px;
 }
 
-
-header h1 {
+main {
+    background-color: #3D3C42;
     color: #FEFBF6;
-    display: block;
+    height: 100%;
+
+}
+
+.hero {
+    display: flex;
+    justify-content: justify;
+}
+
+.herotext {
+    padding: 40px 0 0 7%;
+    margin-right: auto;
+}
+
+.hero img{
+    height: 150px;
+    width: 150px;
+    padding: 0 20% 0 0;
+}
+
+main h1 {
+    margin: 0;
 }
 
 
 .cards {
-    display: flex;
-    width: max-content;
+    background-color: #A6D1E6;
+    color: #3D3C42;
 
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.cards h1 {
+    justify-content: justify;
+}
+
+.cards .container {
+    border: 1px solid orange;
+    height: 250px;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    gap: 5rem;
 }
 
 .cards div {
     height: 150px;
     width: 90px;
     border: 1px solid black;
+    justify-content: justify;
 }
