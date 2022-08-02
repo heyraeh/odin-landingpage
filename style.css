@@ -1,0 +1,54 @@
+/* color palette
+#FEFBF6
+#A6D1E6
+#7F5283
+#3D3C42 */
+
+
+.wrapper {
+    background-color: #FEFBF6;
+    margin: 0;
+    padding: 0%;
+
+}
+
+header {
+    background-color: #3D3C42;
+    color: #FEFBF6;
+    width: max-width;
+    gap: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header img {
+    height: 60px;
+    width: 60px;
+    margin-right: auto;
+}
+
+
+header h1 {
+    color: #FEFBF6;
+    display: block;
+}
+
+
+.cards {
+    display: flex;
+    width: max-content;
+
+}
+
+.cards div {
+    height: 150px;
+    width: 90px;
+    border: 1px solid black;
+}
