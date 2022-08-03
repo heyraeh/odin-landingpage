@@ -43,10 +43,19 @@ header {
 
 .topheader h4 {
     color: #f9faf8;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-right: auto;
     margin-top: 0;
     padding: 20px;
+}
+
+
+.hero {
+    width: 80%;
+    margin: auto;
+    padding: 0 0 80px 0;
+    display: flex;
+    justify-content: justify;
 }
 
 .hero-inner {
@@ -56,7 +65,9 @@ header {
 }
 
 .hero-inner img {
-    width: 300px;
+    height: 200px;
+    width: 450px;
+    margin: 39px;
 }
 
 .herotext {
@@ -64,6 +75,8 @@ header {
 }
 
 .herotext h1 {
+    font-size: 3rem;
+    font-weight: 800;
     color: #f9faf8;
     margin-right: auto;
     text-align: left;
@@ -71,9 +84,18 @@ header {
 }
 
 .herotext p {
-    color: #f9faf8;
+    color: #e5e7eb;
     margin-right: auto;
-    font-size: 1rem;
+    font-size: 1.125rem;
+}
+
+.herotext div {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 1.125rem;
+    display: inline-block;
+    padding: 5px 30px;
+    border-radius: 10px;
 }
 
 
@@ -89,18 +111,6 @@ main {
 
 }
 
-.hero {
-    width: 80%;
-    margin: auto;
-    padding: 0 0 80px 0;
-    display: flex;
-    justify-content: justify;
-}
-
-/* .herotext {
-    padding: 40px 0 0 7%;
-    margin-right: auto;
-} */
 
 
 main h1 {
@@ -110,6 +120,7 @@ main h1 {
 .cardsbox {
     background-color: #ffffff;
     color: #3D3C42;
+    padding-bottom: 50px;
 
 }
 
@@ -118,16 +129,17 @@ main h1 {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 20px 80px;
-    padding: 40px;
+    padding: 20px 100px;
 }
 
 .card {
     flex: 0 1 25%;
 }
 
-.card h1 {
+.cardsbox h1 {
     text-align: center;
-    font-size: 18px;
+    font-size: 2rem;
+    padding: 30px 0;
 }
 
 .card p{
@@ -170,7 +182,7 @@ main h1 {
 
 .action {
     background-color: #ffffff;
-    padding: 65px;
+    padding: 50px 85px 50px 50px;
 
 }
 
@@ -186,6 +198,7 @@ main h1 {
 }
 
 .action p {
+    color: #e5e7eb;
     margin-right: auto;
     font-size: .9rem;
 }
